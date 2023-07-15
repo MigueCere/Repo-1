@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(196, 239, 239);
+}
+.encabezado{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: rgb(183, 122, 122);
+  width: 300px;
+  border-radius: 15px;
+}
+
+.botonera{
+  display: flex;
+  justify-content: space-around;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.boton1{
+  background-color: rgb(134, 134, 215);
+  padding: 15px;
+  border-radius: 10px;
+}
+.boton2{
+  background-color: rgb(126, 192, 126);
+  padding: 15px;
+  border-radius: 10px;
+}
+.boton3{
+  background-color:rgb(237, 203, 100);
+  padding: 15px;
+  border-radius: 10px;
+
+
+}
+
