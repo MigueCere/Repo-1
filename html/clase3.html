@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/clase3.css">
+  <title>Maqueta-botones</title>
+</head>
+<body>
+  
+  <div class="encabezado">
+    <h1>Funciones</h1>
+  </div>
+
+  <div class="botonera">
+
+    <button onclick="sumar();" class="boton1">
+      <p>Sumar</p>
+    </button>
+  
+    <button onclick="saludoEsp();" class="boton2">
+      <p>Preguntar</p>
+    </button>
+  
+    <button onclick="saludoIng();" class="boton3">
+      <p>Ask</p>
+    </button>
+
+  </div>
+
+
+  
+</body>
+<script>
+
+  function sumar (a,b){
+    var a= Number(prompt('Introduzca un valor'));
+    var b= Number(prompt('Introduzca un segundo valor'));
+
+    var resultado= a+b
+
+    return alert ('El resultado de la suma es: ' + resultado);
+  }
+
+function saludoEsp(saludo){
+  var respuestaNombre= prompt('¿Cuál es tu nombre?'); 
+  return alert('Que tengas un buen día ' + respuestaNombre);
+}
+
+function saludoIng(saludo){
+  var respuestaNombre= prompt('Whats your name?'); 
+  return alert('Have a good day ' + respuestaNombre);
+}
+
+</script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/clase4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4</title>
+</head>
+
+<body>
+    <div class="encabezado">
+        <h1>Agregar y Quitar</h1>
+    </div>
+
+    <div class="botonera">
+
+        <button onclick="contador.sumarUno();" class="boton1">
+            <p>Agregar 1</p>
+        </button>
+
+        <button onclick="contador.sumarDos();" class="boton2">
+            <p>Agregar 2</p>
+        </button>
+
+        <button onclick="contador.restarUno();" class="boton3">
+            <p>Quitar 1</p>
+        </button>
+
+        <button onclick="contador.mostrarResultado();" class="boton4">
+            <p>Limpiar</p>
+        </button>
+
+    </div>
+
+</body>
+
+<script>
+    const contador = {
+        valor: 0,
+        sumarUno() {
+            this.valor = this.valor +1;
+            alert(this.valor);
+        },
+        sumarDos() {
+            this.valor = this.valor +2;
+            alert(this.valor);
+        },
+        restarUno() {
+            this.valor = this.valor -1;
+            alert(this.valor);
+        },
+        mostrarResultado() {
+            this.valor = 0;
+            alert('Se limpió la calculadora');
+
+        }
+    };
+
+</script>
+
+</html>
