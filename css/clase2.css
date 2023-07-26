@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1280px;
+  width: 0 auto;
+}
+.contenedor1{
+  min-height: 100vh;
+  width: 80%;
+  margin: 0  auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px,100%),1fr));
+  gap: 20px; 
+}
+
+.imagenes{
+  border-radius: 5px;
+  outline: 2.5px solid rgb(53, 88, 75);
+  background-color: rgb(79, 190, 153);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto{
+  text-decoration: none;
+}
+
+.img-r1{
+  background-image: url(https://assets.unileversolutions.com/recipes-v2/240490.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-items: center;
+
+}
+
+.img-r2{
+  background-image: url(https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2021/05/como-hacer-tortillas-azules.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-items: center;
+
+}
+
+
+
+
+  
